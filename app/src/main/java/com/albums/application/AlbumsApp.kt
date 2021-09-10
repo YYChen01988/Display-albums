@@ -2,6 +2,7 @@ package com.albums.application
 
 import android.app.Application
 import com.albums.BuildConfig
+import com.albums.albums.injection.albumsModule
 import com.albums.core.injections.networkModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
@@ -20,6 +21,7 @@ class AlbumsApp : Application() {
                 androidLogger(Level.ERROR)
             }
             androidContext(this@AlbumsApp)
+            modules(listOf(networkModule, albumsModule))
         }
     }
 }
