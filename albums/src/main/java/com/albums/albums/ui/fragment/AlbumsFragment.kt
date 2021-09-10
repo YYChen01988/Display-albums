@@ -7,11 +7,21 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.albums.R
+import com.albums.albums.ui.adapter.AlbumsAdapter
+import com.albums.albums.viewModel.AlbumsViewModel
+import com.albums.core.network.Status
+import com.albums.core.ui.activity.BaseActivity
 import com.albums.core.ui.fragments.BaseFragment
 import com.albums.databinding.FragmentAlbumsBinding
+import org.koin.android.ext.android.inject
 
 class AlbumsFragment : BaseFragment() {
+    private val albumsViewModel: AlbumsViewModel by inject()
 
+    private lateinit var albumsAdapter: AlbumsAdapter
 
     private lateinit var navController: NavController
 
@@ -37,8 +47,30 @@ class AlbumsFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         navController = Navigation.findNavController(view)
-        showSuccessResponse()
-
+        getAlbums()
     }
+
+    private fun getAlbums() {
+        albumsViewModel.getAlbums().observe(
+            viewLifecycleOwner,
+            {
+                when (it.status) {
+                    Status.LOADING -> {
+                    }
+                    Status.SUCCESS -> {
+                        showSuccessResponse()
+                        it.data?.let { albums ->
+                            var sortedAlbums = albums.sortedBy { it.title }
+                        }
+                    }
+                    Status.ERROR -> {
+                        showError(it.message ?: getString(R.string.error_loading_data))
+                    }
+                }
+            }
+        )
+        albumsViewModel.fetchAllAlbums()
+    }
+
 
 }
