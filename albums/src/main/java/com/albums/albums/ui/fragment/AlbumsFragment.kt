@@ -36,6 +36,8 @@ class AlbumsFragment : BaseFragment() {
 
     override fun getWaitingView(): View = fragmentAlbumsBinding.waitView.root
 
+    private var isAlbumOrderByTitleLength = false
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -49,6 +51,23 @@ class AlbumsFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
         navController = Navigation.findNavController(view)
         getAlbums()
+
+    }
+
+    private fun reorderAlbums() {
+        fragmentAlbumsBinding.albumsSuccess.apply {
+            this.btn.setOnClickListener {
+                if (!isAlbumOrderByTitleLength) {
+                    isAlbumOrderByTitleLength = true
+                    this.btn.background =
+                        resources.getDrawable(R.drawable.default_button_rounded_corner)
+                } else {
+                    isAlbumOrderByTitleLength = false
+                    this.btn.background =
+                        resources.getDrawable(R.drawable.selected_button_rounded_corner)
+                }
+            }
+        }
     }
 
     private fun getAlbums() {
@@ -57,6 +76,7 @@ class AlbumsFragment : BaseFragment() {
             {
                 when (it.status) {
                     Status.LOADING -> {
+                        getWaitingView()
                     }
                     Status.SUCCESS -> {
                         showSuccessResponse()

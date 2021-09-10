@@ -4,4 +4,7 @@
     <color name="textColor">#000</color>
     <color name="gray">#484159</color>
     <color name="lightBlue">#2553f7</color>
+    <color name="blueGreen">#0756f5</color>
+    <color name="lighterGray">#757575</color>
+
 </resources>
