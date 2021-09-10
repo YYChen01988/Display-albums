@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+apply from: '../config-android.gradle'
+
+android {
+
+    defaultConfig {
+        applicationId "com.Albums"
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+}
+
+dependencies {
+    implementation kotlinLib.kotlinStdLib
+
+    implementation di.values()
+
+    testImplementation testDependencies.junit
+    androidTestImplementation androidTestDependencies.values()
+
+    implementation project(path: ':core')
+    implementation project(path: ':albums')
+}

@@ -1,0 +1,4 @@
+rootProject.name = "Albums"
+include ':app'
+include ':core'
+include ':albums'

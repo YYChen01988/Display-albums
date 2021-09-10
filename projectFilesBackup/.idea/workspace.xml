@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="73f1065b-dafe-484a-9560-58c1dc0d8c9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/memes/Memexpress.memes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/memes/Memexpress.memes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memes/src/main/java/com/memexpress/memes/injection/MemesModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/memes/src/main/java/com/memexpress/memes/injection/MemesModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memes/src/main/java/com/memexpress/memes/ui/fragment/MemesFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/memes/src/main/java/com/memexpress/memes/ui/fragment/MemesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memes/src/main/java/com/memexpress/memes/viewmodel/MemesViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/memes/src/main/java/com/memexpress/memes/viewmodel/MemesViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memes/src/test/java/com/memexpress/memes/viewmodel/MemesViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/memes/src/test/java/com/memexpress/memes/viewmodel/MemesViewModelTest.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/yychen/.android/avd/Pixel_2_XL_API_28.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wUgbKLXzI3J5HonpsyHeWbt4Xl" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/yychen/.android/avd/Pixel_2_XL_API_28.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-08-09T15:24:04.505248Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager" selected="Android JUnit.MemesViewModelTest">
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="MemesViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Memexpress.memes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.memexpress.memes.viewmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.memexpress.memes.viewmodel" />
+      <option name="MAIN_CLASS_NAME" value="com.memexpress.memes.viewmodel.MemesViewModelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemesViewModelTest.given server response 200 when fetch should return success" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Memexpress.memes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.memexpress.memes.viewmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.memexpress.memes.viewmodel" />
+      <option name="MAIN_CLASS_NAME" value="com.memexpress.memes.viewmodel.MemesViewModelTest" />
+      <option name="METHOD_NAME" value="given server response 200 when fetch should return success" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Memexpress.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemesViewModelTest.given server response error when fetch should return error" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Memexpress.memes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.memexpress.memes.viewmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.memexpress.memes.viewmodel" />
+      <option name="MAIN_CLASS_NAME" value="com.memexpress.memes.viewmodel.MemesViewModelTest" />
+      <option name="METHOD_NAME" value="given server response error when fetch should return error" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.MemesViewModelTest" />
+        <item itemvalue="Android JUnit.MemesViewModelTest.given server response 200 when fetch should return success" />
+        <item itemvalue="JUnit.MemesViewModelTest.given server response error when fetch should return error" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73f1065b-dafe-484a-9560-58c1dc0d8c9d" name="Default Changelist" comment="" />
+      <created>1628518653181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628518653181</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="225" y="152" key="AndroidCreateResourceDirectoryDialog" timestamp="1628522118170">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="225" y="152" key="AndroidCreateResourceDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1628522118170" />
+    <state x="225" y="152" key="AndroidCreateResourceFileDialog" timestamp="1628519510697">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="225" y="152" key="AndroidCreateResourceFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1628519510697" />
+    <state x="450" y="113" key="AndroidCreateXmlResourceDialog" timestamp="1628519644113">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="450" y="113" key="AndroidCreateXmlResourceDialog/0.0.1280.800@0.0.1280.800" timestamp="1628519644112" />
+    <state x="175" y="0" key="CommitChangelistDialog2" timestamp="1628520224088">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="175" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1628520224088" />
+    <state width="1228" height="336" key="GridCell.Tab.0.bottom" timestamp="1628528594559">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="336" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1628528594559" />
+    <state width="1228" height="336" key="GridCell.Tab.0.center" timestamp="1628528594551">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="336" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1628528594551" />
+    <state width="1228" height="336" key="GridCell.Tab.0.left" timestamp="1628528594536">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="336" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1628528594536" />
+    <state width="1228" height="336" key="GridCell.Tab.0.right" timestamp="1628528594557">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="336" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1628528594557" />
+    <state width="1228" height="285" key="GridCell.Tab.1.bottom" timestamp="1628527017263">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="285" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1628527017263" />
+    <state width="1228" height="285" key="GridCell.Tab.1.center" timestamp="1628527017261">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="285" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1628527017261" />
+    <state width="1228" height="285" key="GridCell.Tab.1.left" timestamp="1628527017260">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="285" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1628527017260" />
+    <state width="1228" height="285" key="GridCell.Tab.1.right" timestamp="1628527017262">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1228" height="285" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1628527017262" />
+    <state x="271" y="113" width="738" height="574" key="find.popup" timestamp="1628520617137">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="271" y="113" width="738" height="574" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1628520617137" />
+    <state width="375" height="45" key="javadoc.popup.new" timestamp="1628528501024">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="375" height="45" key="javadoc.popup.new/0.0.1280.800@0.0.1280.800" timestamp="1628528501024" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/memes/src/test/java/com/memexpress/memes/viewmodel/MemesViewModelTest.kt</url>
+          <line>74</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/memes/src/test/java/com/memexpress/memes/viewmodel/MemesViewModelTest.kt</url>
+          <line>78</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/memes/src/test/java/com/memexpress/memes/viewmodel/MemesViewModelTest.kt</url>
+          <line>56</line>
+          <properties class="com.memexpress.memes.viewmodel.MemesViewModelTest" method="given server response 200 when fetch should return success">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
