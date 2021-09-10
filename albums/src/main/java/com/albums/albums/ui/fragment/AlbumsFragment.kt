@@ -10,6 +10,7 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.albums.R
+import com.albums.albums.data.model.AlbumItem
 import com.albums.albums.ui.adapter.AlbumsAdapter
 import com.albums.albums.viewModel.AlbumsViewModel
 import com.albums.core.network.Status
@@ -61,6 +62,7 @@ class AlbumsFragment : BaseFragment() {
                         showSuccessResponse()
                         it.data?.let { albums ->
                             var sortedAlbums = albums.sortedBy { it.title }
+                            setUpAlbumsRecyclerView(sortedAlbums)
                         }
                     }
                     Status.ERROR -> {
@@ -70,6 +72,21 @@ class AlbumsFragment : BaseFragment() {
             }
         )
         albumsViewModel.fetchAllAlbums()
+    }
+
+    private fun setUpAlbumsRecyclerView(sortedAlbums: List<AlbumItem>) {
+        fragmentAlbumsBinding.albumsSuccess.rvAlbums.apply {
+            albumsAdapter = AlbumsAdapter(activity as BaseActivity, sortedAlbums)
+            layoutManager = LinearLayoutManager(activity)
+            addItemDecoration(
+                DividerItemDecoration(
+                    context,
+                    DividerItemDecoration.VERTICAL
+                )
+            )
+            adapter = albumsAdapter
+            albumsAdapter.setDataList(sortedAlbums)
+        }
     }
 
 
