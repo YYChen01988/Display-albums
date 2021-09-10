@@ -38,6 +38,7 @@ class AlbumsFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
         navController = Navigation.findNavController(view)
         showSuccessResponse()
+
     }
 
 }

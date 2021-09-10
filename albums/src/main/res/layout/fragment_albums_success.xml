@@ -5,6 +5,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="@dimen/margin_20">
 
+    <include
+        android:id="@+id/waitView"
+        layout="@layout/layout_wait"
+        android:visibility="gone"
+        />
+
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
