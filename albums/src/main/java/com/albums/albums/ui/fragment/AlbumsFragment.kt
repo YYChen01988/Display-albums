@@ -54,14 +54,19 @@ class AlbumsFragment : BaseFragment() {
 
     }
 
-    private fun reorderAlbums() {
+    private fun reorderAlbums(albums: List<AlbumItem>) {
+        var sortedAlbums = listOf<AlbumItem>()
         fragmentAlbumsBinding.albumsSuccess.apply {
             this.btn.setOnClickListener {
                 if (!isAlbumOrderByTitleLength) {
+                    sortedAlbums = albums.sortedBy { it.title }
+                    setUpAlbumsRecyclerView(sortedAlbums)
                     isAlbumOrderByTitleLength = true
                     this.btn.background =
                         resources.getDrawable(R.drawable.default_button_rounded_corner)
                 } else {
+                    sortedAlbums = albums.sortedBy { it.title?.length }
+                    setUpAlbumsRecyclerView(sortedAlbums)
                     isAlbumOrderByTitleLength = false
                     this.btn.background =
                         resources.getDrawable(R.drawable.selected_button_rounded_corner)
@@ -81,8 +86,9 @@ class AlbumsFragment : BaseFragment() {
                     Status.SUCCESS -> {
                         showSuccessResponse()
                         it.data?.let { albums ->
-                            var sortedAlbums = albums.sortedBy { it.title }
+                            val sortedAlbums = albums.sortedBy { it.title }
                             setUpAlbumsRecyclerView(sortedAlbums)
+                            reorderAlbums(albums)
                         }
                     }
                     Status.ERROR -> {
