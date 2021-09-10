@@ -44,6 +44,18 @@ class AlbumsViewModelTest {
         startFetchingAlbumsResult(Resource.success(data = emptyList()))
     }
 
+    @Test
+    fun `given server response error when fetch should return error`() {
+        val errorMessage = "Dummy Error Message"
+        startFetchingAlbumsResult(
+            Resource.error(
+                data = null,
+                RuntimeException(errorMessage).toString()
+            )
+        )
+
+    }
+
     private fun startFetchingAlbumsResult(data: Resource<List<AlbumItem>>) {
         testCoroutineRule.runBlockingTest {
             Mockito.doReturn(data).`when`(albumsRepository).getAlbums()
