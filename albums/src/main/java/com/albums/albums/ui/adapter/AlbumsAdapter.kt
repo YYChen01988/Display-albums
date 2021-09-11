@@ -2,12 +2,12 @@ package com.albums.albums.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.albums.albums.data.model.AlbumItem
-import com.albums.core.ui.activity.BaseActivity
 import com.albums.databinding.ListItemAlbumBinding
 
-class AlbumsAdapter(private val activity: BaseActivity, private val albums: List<AlbumItem>) :
+class AlbumsAdapter(private val activity: AppCompatActivity, private val albums: List<AlbumItem>) :
     RecyclerView.Adapter<AlbumsAdapter.AlbumsAdapterViewHolder>() {
 
     var dataList = emptyList<AlbumItem>()
