@@ -4,8 +4,8 @@
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
         <option name="GRADLE_PROJECT_PATH" value=":app" />
-        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.2.1" />
-        <option name="LAST_KNOWN_AGP_VERSION" value="4.2.1" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.2.2" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="4.2.2" />
       </configuration>
     </facet>
     <facet type="android" name="Android">
@@ -31,7 +31,7 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
-          <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar:/Users/yychen/Desktop/Scottish Power/Display-albums/core/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/yychen/Desktop/Scottish Power/Display-albums/albums/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/e9ff033da46d05becc452c2417e6a10f/viewbinding-4.2.1-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/3f85e0ae346f2ad4a5fb00e559e9161b/koin-android-ext-3.0.1-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/38b5978e14072b29921746ec30400118/koin-android-3.0.1-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/d58351a05347f70a3895929f9c20f0b7/lifecycle-extensions-2.2.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/db2b27a1bfb79f406198c754909b02b0/fragment-1.3.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/d1c7ed1c863422513bb2736ee6b3deb7/activity-1.2.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/fd02d0e3c9cd1f5897e97755dc04ee54/lifecycle-viewmodel-savedstate-2.3.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/401639db4c7330cb6b0aa154392eb36b/savedstate-1.1.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/57dd9b6c7d28204b6d9ca6ae02b032fd/loader-1.0.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/a77c87f0d3ddec3046184590c5f62739/lifecycle-viewmodel-2.3.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/576145298fa0d57252ed662ac46299ef/viewpager-1.0.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/682be6d8997ebd669114fb8821a6d5a5/customview-1.1.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/d4ac64147a9b53c0a4116864a7d904ce/core-1.3.2-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/b7ec6d6411093f6ae64aefa5f3bae863/lifecycle-runtime-2.3.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/beacbe77f20e6b52bd2ec80a2df1b633/core-runtime-2.1.0-api.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/5509cb32228b7e993b4a51cea60465ae/lifecycle-livedata-core-2.3.0-api.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.0/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.0.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/fefff857591ea3e4cb443088e5ef6b22/versionedparcelable-1.1.0-api.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-core-ext/3.0.1/feb5987f1ee3b7d5f504ab09b6fc58aa1f173696/koin-core-ext-3.0.1.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-core-jvm/3.0.1/73a0438fee50a9ccfb750da4d3f0562e5f688dd4/koin-core-jvm-3.0.1.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.0/65fbc439df2e4aad1f3769762d54534f1b564090/kotlin-stdlib-jdk8-1.5.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.5.0/f61904618ea7be07a66e0545ffe8dc2c70a19b77/kotlin-stdlib-jdk7-1.5.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.0/29dae2501ca094416d15af0e21470cb634780444/kotlin-stdlib-1.5.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.0/4080d69efca5e39e9b4972f125e40f1607bd6460/kotlin-stdlib-common-1.5.0.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/64a5603ae9f28b7f175273b72ae4173e/annotation-experimental-1.0.0-api.jar:/Users/yychen/Library/Android/sdk/platforms/android-30/android.jar:/Users/yychen/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
+          <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar:/Users/yychen/Desktop/Scottish Power/Display-albums/core/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/yychen/Desktop/Scottish Power/Display-albums/albums/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/a0d692c9c0289e86dcedcaaebf8af0d7/viewbinding-4.2.2-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/0096105b5650a616615dfab90d7daa23/koin-android-ext-3.0.1-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/88d1f7498fdb7ae3bfefd5008c6b90ec/koin-android-3.0.1-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/3c40c92513d3bd37d50c314151b38f3a/lifecycle-extensions-2.2.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/2fa375a1fdca2f83b7e4f7b05959228f/fragment-1.3.6-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/f8aa7f78ae3c16fd8c57249d3c6f1acc/activity-1.2.4-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/07a1dcf7d861c38354d18708d11337ea/lifecycle-viewmodel-savedstate-2.3.1-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/518c339fe1a8c52429945ba2e67d2bc2/savedstate-1.1.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/4a0d7e06c246c5610b7e705eecefbee3/loader-1.0.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/4b662fd5541572e9a67d7b5658bfb593/lifecycle-viewmodel-2.3.1-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/c1b97ab3b2fc6e32276214434ff80c25/viewpager-1.0.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/cc5da5baa334bb60ecce037efe8f6688/customview-1.1.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/b8ca4ebc7a4d12e400a3a615c31111cb/core-1.6.0-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/513e493b80981e022cb7d91433451565/lifecycle-runtime-2.3.1-api.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/eb38866d39beb65d0d10182266fedfb9/core-runtime-2.1.0-api.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/fc4a019486bcebd8b5cca618c46cf638/lifecycle-livedata-core-2.3.1-api.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/b746beee6a54420f6db373f0a32cd156/versionedparcelable-1.1.1-api.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-core-ext/3.0.1/feb5987f1ee3b7d5f504ab09b6fc58aa1f173696/koin-core-ext-3.0.1.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-core-jvm/3.0.1/73a0438fee50a9ccfb750da4d3f0562e5f688dd4/koin-core-jvm-3.0.1.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.5.0/65fbc439df2e4aad1f3769762d54534f1b564090/kotlin-stdlib-jdk8-1.5.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.5.0/f61904618ea7be07a66e0545ffe8dc2c70a19b77/kotlin-stdlib-jdk7-1.5.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.10/da6a904b132f0402fa4d79169a3c1770598d4702/kotlin-stdlib-1.5.10.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/yychen/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.10/6b84d926e28493be69daf673e40076f89492ef7/kotlin-stdlib-common-1.5.10.jar:/Users/yychen/.gradle/caches/transforms-2/files-2.1/4a1a888403ccc3eff3d8996dd04acc6f/annotation-experimental-1.1.0-api.jar:/Users/yychen/Library/Android/sdk/platforms/android-30/android.jar:/Users/yychen/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="app_debug" />
@@ -73,6 +73,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup:javawriter:2.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:2.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.ext:junit:1.1.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-core:3.3.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:runner:1.3.0@aar" level="project" />
@@ -80,39 +82,43 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.3.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment:1.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.3.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.2.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.3.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.3.1" level="project" />
     <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.2.0" level="project" />
     <orderEntry type="library" name="Gradle: io.insert-koin:koin-core-ext:3.0.1" level="project" />
     <orderEntry type="library" name="Gradle: io.insert-koin:koin-core-jvm:3.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.5.10" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.0" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:4.2.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:4.2.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: io.insert-koin:koin-android-ext:3.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: io.insert-koin:koin-android:3.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-extensions:2.2.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.3.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.2.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.3.6@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.2.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.3.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.customview:customview:1.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.core:core:1.3.2@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.6.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.3.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.3.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
     <orderEntry type="module" module-name="Albums.core" />
     <orderEntry type="module" module-name="Albums.albums" />
   </component>

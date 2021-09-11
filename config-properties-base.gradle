@@ -17,6 +17,7 @@ ext {
 
 android {
     defaultConfig {
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "String", "BASE_URL", "\"${config.commonProperties.base_url}\""
     }
 }

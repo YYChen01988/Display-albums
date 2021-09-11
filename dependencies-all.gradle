@@ -5,7 +5,7 @@ ext {
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
     kotlin_version = '1.5.0'
-    gradle_version = '4.2.1'
+    gradle_version = '4.2.2'
     build_tools_version = "30.0.3"
     min_sdk_version = 23
     target_sdk_version = 30
@@ -80,7 +80,7 @@ ext {
 
     di = [
             koin: "io.insert-koin:koin-android:$koin_version",
-            koin_ext: "io.insert-koin:koin-android-ext:$koin_version"
+            koin_ext: "io.insert-koin:koin-android-ext:$koin_version",
     ]
 
     glide_version = '4.12.0'
@@ -120,12 +120,16 @@ ext {
 
     mockito = [
             mockitoCore: "org.mockito:mockito-core:$mockito_version",
-            mockitoInline: "org.mockito:mockito-inline:$mockito_inline_version"
+            mockitoInline: "org.mockito:mockito-inline:$mockito_inline_version",
+            mockitoAndroid: "org.mockito:mockito-android:3.1.0"
+
     ]
 
     koinTest = [
             koin_test: "io.insert-koin:koin-test:$koin_version",
-            koin_test_junit4: "io.insert-koin:koin-test-junit4:$koin_version"
+            koin_test_junit4: "io.insert-koin:koin-test-junit4:$koin_version",
+            kointest: "org.koin:koin-test:2.0.1",
+
     ]
     coroutineTest = [
             coroutine_test: "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutine_version"

@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.corouteam:GlideToVectorYou:v2.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36e0e9b349b0f730ebe6d24c8a78ae96/GlideToVectorYou-v2.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36e0e9b349b0f730ebe6d24c8a78ae96/GlideToVectorYou-v2.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36e0e9b349b0f730ebe6d24c8a78ae96/GlideToVectorYou-v2.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61727b3fe9d55427584df21ec5c29180/GlideToVectorYou-v2.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61727b3fe9d55427584df21ec5c29180/GlideToVectorYou-v2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61727b3fe9d55427584df21ec5c29180/GlideToVectorYou-v2.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

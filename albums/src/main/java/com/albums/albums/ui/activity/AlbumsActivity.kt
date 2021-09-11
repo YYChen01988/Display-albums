@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.albums.R
+import com.albums.albums.data.database.SqliteHelper
 import com.albums.albums.data.model.AlbumItem
 import com.albums.albums.ui.adapter.AlbumsAdapter
 import com.albums.albums.viewModel.AlbumsViewModel
@@ -17,13 +18,11 @@ import org.koin.android.ext.android.inject
 
 class AlbumsActivity : AppCompatActivity() {
     private val albumsViewModel: AlbumsViewModel by inject()
-
     private lateinit var albumsAdapter: AlbumsAdapter
+    private lateinit var sqliteHelper: SqliteHelper
     private var isAlbumOrderByTitleLength = false
-    fun getWaitingView(): View = activityAlbumsBinding.waitView.root
-
-
     private lateinit var activityAlbumsBinding: ActivityAlbumsBinding
+    fun getWaitingView(): View = activityAlbumsBinding.waitView.root
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,11 +30,7 @@ class AlbumsActivity : AppCompatActivity() {
         activityAlbumsBinding = ActivityAlbumsBinding.inflate(layoutInflater)
         val view = activityAlbumsBinding.root
         setContentView(view)
-
-//        if (savedInstanceState != null) {
-//            supportFragmentManager.beginTransaction().add(R.id.fragmentContainer, AlbumsFragment())
-//                .commit()
-//        }
+        sqliteHelper = SqliteHelper(this)
         getAlbums()
     }
 
@@ -72,12 +67,14 @@ class AlbumsActivity : AppCompatActivity() {
                     Status.SUCCESS -> {
                         it.data?.let { albums ->
                             val sortedAlbums = albums.sortedBy { it.title }
-                            setUpAlbumsRecyclerView(sortedAlbums)
-                            reorderAlbums(albums)
+                            sqliteHelper.insertAlbums(sortedAlbums)
+                            setUpAlbumsFromDb()
                         }
                     }
                     Status.ERROR -> {
-                        Log.d(TAG, "Error getting albums")                    }
+                        setUpAlbumsFromDb()
+                        Log.d(TAG, "Error getting albums")
+                    }
                 }
             }
         )
@@ -95,6 +92,13 @@ class AlbumsActivity : AppCompatActivity() {
         )
         activityAlbumsBinding.rvAlbums.adapter = albumsAdapter
         albumsAdapter.setDataList(sortedAlbums)
+    }
+
+    private fun setUpAlbumsFromDb(){
+        val albums = sqliteHelper.getAllAlbums()
+        setUpAlbumsRecyclerView(albums)
+        reorderAlbums(albums)
+
     }
 
 }
