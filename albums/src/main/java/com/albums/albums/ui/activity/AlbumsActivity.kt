@@ -94,7 +94,7 @@ class AlbumsActivity : AppCompatActivity() {
         albumsAdapter.setDataList(sortedAlbums)
     }
 
-    private fun setUpAlbumsFromDb(){
+    private fun setUpAlbumsFromDb() {
         val albums = sqliteHelper.getAllAlbums()
         setUpAlbumsRecyclerView(albums)
         reorderAlbums(albums)
