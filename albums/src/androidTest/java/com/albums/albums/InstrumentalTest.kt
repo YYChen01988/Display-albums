@@ -73,6 +73,11 @@ class InstrumentalTest {
 
         onView(withId(R.id.btn)).perform(click())
 
+        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(0))
+            .check(matches(hasDescendant(withText("ZZ"))));
+        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(1))
+            .check(matches(hasDescendant(withText("ACDC"))))
+
     }
 
 }

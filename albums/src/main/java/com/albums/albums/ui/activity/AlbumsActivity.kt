@@ -39,7 +39,7 @@ class AlbumsActivity : AppCompatActivity() {
         var sortedAlbums = listOf<AlbumItem>()
         activityAlbumsBinding.apply {
             this.btn.setOnClickListener {
-                if (!isAlbumOrderByTitleLength) {
+                if (isAlbumOrderByTitleLength) {
                     sortedAlbums = albums.sortedBy { it.title }
                     setUpAlbumsRecyclerView(sortedAlbums)
                     isAlbumOrderByTitleLength = true
