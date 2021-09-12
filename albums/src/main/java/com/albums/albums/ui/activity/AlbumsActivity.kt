@@ -42,13 +42,13 @@ class AlbumsActivity : AppCompatActivity() {
                 if (isAlbumOrderByTitleLength) {
                     sortedAlbums = albums.sortedBy { it.title }
                     setUpAlbumsRecyclerView(sortedAlbums)
-                    isAlbumOrderByTitleLength = true
+                    isAlbumOrderByTitleLength = !isAlbumOrderByTitleLength
                     this.btn.background =
                         resources.getDrawable(R.drawable.default_button_rounded_corner)
                 } else {
                     sortedAlbums = albums.sortedBy { it.title?.length }
                     setUpAlbumsRecyclerView(sortedAlbums)
-                    isAlbumOrderByTitleLength = false
+                    isAlbumOrderByTitleLength = !isAlbumOrderByTitleLength
                     this.btn.background =
                         resources.getDrawable(R.drawable.selected_button_rounded_corner)
                 }

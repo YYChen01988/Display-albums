@@ -80,6 +80,29 @@ class InstrumentalTest {
 
     }
 
+    @Test
+    fun sort_button_can_clicked_twice() {
+        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(0))
+            .check(matches(hasDescendant(withText("ACDC"))));
+        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(1))
+            .check(matches(hasDescendant(withText("ZZ"))))
+
+        onView(withId(R.id.btn)).perform(click())
+
+        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(0))
+            .check(matches(hasDescendant(withText("ZZ"))));
+        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(1))
+            .check(matches(hasDescendant(withText("ACDC"))))
+
+        onView(withId(R.id.btn)).perform(click())
+
+        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(0))
+            .check(matches(hasDescendant(withText("ACDC"))));
+        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(1))
+            .check(matches(hasDescendant(withText("ZZ"))))
+
+    }
+
 }
 
 class TestApi : AlbumsApi {
