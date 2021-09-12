@@ -2,5 +2,5 @@
     <string name="details_page">User Details</string>
     <string name="albumTitle">Albums</string>
     <string name="description">Please click the button to get albums</string>
-    <string name="title_length">Title length</string>
+    <string name="title_length">Sort By Title length</string>
 </resources>
