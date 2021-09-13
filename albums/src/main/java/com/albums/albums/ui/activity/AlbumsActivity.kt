@@ -1,5 +1,6 @@
 package com.albums.albums.ui.activity
 
+import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
 import android.os.Bundle
 import android.util.Log
@@ -16,13 +17,14 @@ import com.albums.core.network.Status
 import com.albums.databinding.ActivityAlbumsBinding
 import org.koin.android.ext.android.inject
 
+@Suppress("DEPRECATION")
 class AlbumsActivity : AppCompatActivity() {
     private val albumsViewModel: AlbumsViewModel by inject()
     private lateinit var albumsAdapter: AlbumsAdapter
     private lateinit var sqliteHelper: SqliteHelper
     private var isAlbumOrderByTitleLength = false
     private lateinit var activityAlbumsBinding: ActivityAlbumsBinding
-    fun getWaitingView(): View = activityAlbumsBinding.waitView.root
+    private fun getWaitingView(): View = activityAlbumsBinding.waitView.root
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,8 +37,9 @@ class AlbumsActivity : AppCompatActivity() {
     }
 
 
+    @SuppressLint("UseCompatLoadingForDrawables")
     private fun reorderAlbums(albums: List<AlbumItem>) {
-        var sortedAlbums = listOf<AlbumItem>()
+        var sortedAlbums: List<AlbumItem>
         activityAlbumsBinding.apply {
             this.btn.setOnClickListener {
                 if (isAlbumOrderByTitleLength) {
@@ -65,7 +68,7 @@ class AlbumsActivity : AppCompatActivity() {
                     }
                     Status.SUCCESS -> {
                         it.data?.let { albums ->
-                            val sortedAlbums = albums.sortedBy { it.title }
+                            val sortedAlbums = albums.sortedBy { albumItem -> albumItem.title }
                             sqliteHelper.insertAlbums(sortedAlbums)
                             setUpAlbumsFromDb()
                         }

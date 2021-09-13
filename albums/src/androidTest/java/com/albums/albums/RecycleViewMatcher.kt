@@ -19,14 +19,14 @@ class RecyclerViewMatcher(private val recyclerViewId: Int) {
             var resources: Resources? = null
             var childView: View? = null
             override fun describeTo(description: Description) {
-                var idDescription = Integer.toString(recyclerViewId)
+                var idDescription = recyclerViewId.toString()
                 if (resources != null) {
                     idDescription = try {
                         resources!!.getResourceName(recyclerViewId)
                     } catch (var4: NotFoundException) {
                         String.format(
                             "%s (resource name not found)",
-                            *arrayOf<Any>(Integer.valueOf(recyclerViewId))
+                            Integer.valueOf(recyclerViewId)
                         )
                     }
                 }
@@ -40,7 +40,7 @@ class RecyclerViewMatcher(private val recyclerViewId: Int) {
                         recyclerViewId
                     ) as RecyclerView
                     childView =
-                        if (recyclerView != null && recyclerView.getId() === recyclerViewId) {
+                        if (recyclerView.id === recyclerViewId) {
                             recyclerView.findViewHolderForAdapterPosition(position)?.itemView
                         } else {
                             return false

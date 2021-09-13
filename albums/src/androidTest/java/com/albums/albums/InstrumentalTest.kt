@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.albums.albums
 
 import android.content.Intent
@@ -25,6 +27,7 @@ import org.koin.core.context.GlobalContext.unloadKoinModules
 import org.koin.core.context.loadKoinModules
 import org.koin.dsl.module
 
+@Suppress("DEPRECATION")
 @RunWith(AndroidJUnit4::class)
 class InstrumentalTest {
 
@@ -58,47 +61,47 @@ class InstrumentalTest {
     @Test
     fun display_recyclerView() {
         onView(withId(R.id.rvAlbums)).check(matches(isDisplayed()))
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(0))
-            .check(matches(hasDescendant(withText("ACDC"))));
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(1))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(0))
+            .check(matches(hasDescendant(withText("ACDC"))))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(1))
             .check(matches(hasDescendant(withText("ZZ"))))
     }
 
     @Test
     fun sort_button_can_clicked() {
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(0))
-            .check(matches(hasDescendant(withText("ACDC"))));
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(1))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(0))
+            .check(matches(hasDescendant(withText("ACDC"))))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(1))
             .check(matches(hasDescendant(withText("ZZ"))))
 
         onView(withId(R.id.btn)).perform(click())
 
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(0))
-            .check(matches(hasDescendant(withText("ZZ"))));
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(1))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(0))
+            .check(matches(hasDescendant(withText("ZZ"))))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(1))
             .check(matches(hasDescendant(withText("ACDC"))))
 
     }
 
     @Test
     fun sort_button_can_clicked_twice() {
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(0))
-            .check(matches(hasDescendant(withText("ACDC"))));
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(1))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(0))
+            .check(matches(hasDescendant(withText("ACDC"))))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(1))
             .check(matches(hasDescendant(withText("ZZ"))))
 
         onView(withId(R.id.btn)).perform(click())
 
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(0))
-            .check(matches(hasDescendant(withText("ZZ"))));
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(1))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(0))
+            .check(matches(hasDescendant(withText("ZZ"))))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(1))
             .check(matches(hasDescendant(withText("ACDC"))))
 
         onView(withId(R.id.btn)).perform(click())
 
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(0))
-            .check(matches(hasDescendant(withText("ACDC"))));
-        onView(withRecyclerView(R.id.rvAlbums)?.atPosition(1))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(0))
+            .check(matches(hasDescendant(withText("ACDC"))))
+        onView(withRecyclerView(R.id.rvAlbums).atPosition(1))
             .check(matches(hasDescendant(withText("ZZ"))))
 
     }
@@ -114,6 +117,6 @@ class TestApi : AlbumsApi {
     }
 }
 
-fun withRecyclerView(recyclerViewId: Int): RecyclerViewMatcher? {
+fun withRecyclerView(recyclerViewId: Int): RecyclerViewMatcher {
     return RecyclerViewMatcher(recyclerViewId)
 }
